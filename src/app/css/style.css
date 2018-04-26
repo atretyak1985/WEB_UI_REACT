@@ -1,0 +1,242 @@
+/*body {
+  background-color: red;
+}*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.none {
+  display: none;
+}
+
+.app {
+  width: 500px;
+
+  margin: 0 auto;
+
+
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+  background: #959595; /* Old browsers */
+  background: -moz-linear-gradient(top, #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+.categories {
+  width: 400px;
+  margin: 0 auto;
+
+
+
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+
+
+
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  border-radius: 5px;
+  width: 350px;
+  margin: 10px auto;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+  color: #fff;
+
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+.category_info {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+
+
+ul.categories_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+li.category + li.category {
+  margin-top: 5px;
+}
+
+/*li + li {
+  border-top: 1px dashed #fff;
+}*/
+
+
+.add_category {
+  width: 350px;
+
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+
+  margin: 0 auto;
+}
+
+
+
+button {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
+background: #aebcbf; /* Old browsers */
+background: -moz-linear-gradient(top, #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+
+
+font-family: 'Press Start 2P', cursive;
+font-size: 0.5em;
+color: #fff;
+
+
+}
+
+
+
+button:disabled {
+  color: red;
+}
+
+
+/*---------------------------------add_transactions form*/
+.add_transactions {
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+
+
+
+
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+/*------------------------------------for transactions detail info div and spans*/
+.transactions {
+  width: 350px;
+  margin: 0 auto;
+}
+ul.transactions_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.transactions_coins_date {
+  /*width: 200px;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+li.transactions_lis {
+  color: rgba(255, 255, 255, .5);
+
+  font-family: 'Indie Flower', cursive;
+  font-size: .9em;
+}
+
+
+/*-------------------------------------------for CHARTS*/
+.charts_bars {
+
+}
+
+.charts_tort {
+
+}
+
+.div_canvas_a {
+
+}
+
+
+.top_div_a {
+  margin-top: 50px;
+}
+
+.top_div_a , .top_div_b, .top_div_c, .top_div_d, .top_div_e, .top_div_f {
+  margin-bottom: 15px;
+}
+
+
+
+/*--------------------------------------------for allAcounts*/
+.all_accounts_top_div {
+  width: 350px;
+  margin: 55px auto 0 auto;
+
+
+
+
+font-family: 'Press Start 2P', cursive;
+font-size: .7em;
+
+/*color: rgba(65, 105, 225, .5);*/
+
+
+
+
+}
+
+ul.all_accounts_ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.all_accounts_name_coins {
+  display: flex;
+  justify-content: space-between;
+}
+
+li.all_accounts_li {
+    color: #fff;
+}
+
+li.all_accounts_li + li.all_accounts_li {
+  margin-top: 10px;
+}
